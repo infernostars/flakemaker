@@ -20,6 +20,7 @@ from flakemaker import SnowflakeGenerator
 generator = SnowflakeGenerator() # you can put a time here in milliseconds since 1970
 snowflake = generator.generate(42) # or any value from 0-1023
 print(f"Generated snowflake: {snowflake}")
+# Generated snowflake: 17359567945990144
 ```
 
 ### Parsing a Snowflake
