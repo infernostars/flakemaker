@@ -6,7 +6,7 @@ The `flakemaker` library offers a straightforward approach to generating unique,
 
 - Generates 64-bit snowflake IDs.
 - Customizable epoch.
-- Includes a user-defined parameter in the snowflake for additional flexibility.
+- Includes a user-defined parameter at snowflake generation. *Note that this replaces the worker and process ids!*
 
 ## Quickstart
 
